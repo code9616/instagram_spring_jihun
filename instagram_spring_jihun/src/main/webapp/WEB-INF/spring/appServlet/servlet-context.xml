@@ -21,12 +21,12 @@
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
 	
-<!-- 	<beans:bean id="dataSource" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+	<beans:bean id="dataSource" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<beans:property name="diverClassName" value="org.mariadb.jdbc.Driver"></beans:property>
 		<beans:property name="url" value="jdbc:mariadb://127.0.0.1:8001/instagram?userUnicode=true"></beans:property>
 		<beans:property name="username" value="root"></beans:property>
 		<beans:property name="password" value="toor"></beans:property>
-	</beans:bean> -->
+	</beans:bean>
 	
 	<context:component-scan base-package="com.instagram.jihun" />
 	

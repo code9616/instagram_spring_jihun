@@ -37,8 +37,7 @@
 		    <artifactId>spring-jdbc</artifactId>
 		    <version>${org.springframework-version}</version>
 		</dependency>
-		
-		<!-- https://mvnrepository.com/artifact/org.mindrot/jbcrypt -->
+
 		<dependency>
 		    <groupId>org.mindrot</groupId>
 		    <artifactId>jbcrypt</artifactId>
@@ -135,6 +134,7 @@
 		    <version>1.18.24</version>
 		    <scope>provided</scope>
 		</dependency>
+		
 		<!-- maria db -->
 		<dependency>
 		    <groupId>org.mariadb.jdbc</groupId>

@@ -8,8 +8,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>instagram</title>
-    <link rel="stylesheet" href="/app/static/css/style.css">
-    <link rel="stylesheet" href="/app/static/css/auth.css">
+    <link rel="stylesheet" href="/jihun/static/css/style.css">
+    <link rel="stylesheet" href="/jihun/static/css/auth.css">
     <script src="https://kit.fontawesome.com/ede2458143.js" crossorigin="anonymous"></script>
 </head>
 
@@ -22,9 +22,9 @@
                 </div>
                 <div class="r-content">
                     <div class="item-box">
-                        <h1 class="b-logo"><img src="/app/static/images/instagram_logo.PNG"></h1>
+                        <h1 class="b-logo"><img src="/jihun/static/images/instagram_logo.PNG"></h1>
                         <div class="items-group">
-                            <form action="/app/auth/signin" method="post" class="items-group-form">
+                            <form action="/jihun/auth/signin" method="post" class="items-group-form">
                                 <div class="input-items">
                                     <label for="username">전화번호, 사용자 이름 또는 이메일</label>
                                     <input type="text" id="username" name="username">
@@ -63,7 +63,7 @@
 
         </footer>
     </section>
-    <script src="/app/static/js/auth.js"></script>
+    <script src="/jihun/static/js/auth.js"></script>
 </body>
 
 </html>
