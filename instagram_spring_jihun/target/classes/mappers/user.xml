@@ -35,7 +35,7 @@
   			email,
   			name,
   			username,
-  			paasword,
+  			password,
   			create_date,
   			update_date
   		from
