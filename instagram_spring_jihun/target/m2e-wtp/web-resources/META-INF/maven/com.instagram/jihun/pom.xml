@@ -38,6 +38,7 @@
 		    <version>${org.springframework-version}</version>
 		</dependency>
 
+		<!-- jbcrypt -->
 		<dependency>
 		    <groupId>org.mindrot</groupId>
 		    <artifactId>jbcrypt</artifactId>

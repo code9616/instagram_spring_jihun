@@ -18,7 +18,7 @@
         <main class="m-container">
             <article class="a-container">
                 <div class="l-content">
-                    <img src="/app/static/images/auth_main.png" class="l-content-img">
+                    <img src="/jihun/static/images/auth_main.png" class="l-content-img">
                 </div>
                 <div class="r-content">
                     <div class="item-box">

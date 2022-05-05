@@ -14,19 +14,18 @@ public class AuthServiceImpl implements AuthService{
 	
 	@Override
 	public boolean checkUsername(String username) {
-		return userRepository.checkUsername(username) !=0;
+		return userRepository.checkUsername(username) !=0 ? true : false;
 	}
 	
 	@Override
 	public boolean signup(SignupRequestDto signupRequestDto) {
 		int result = userRepository.signup(signupRequestDto.toEntity());
-		return result != 0;
+		return false;
 	}
 	
-	@Override
-	public User signin(String username, String password) {
-
-		return null;
-	}
-	
+	/*
+	 * @Override public User signin(String username, String password) {
+	 * 
+	 * return null; }
+	 */
 }

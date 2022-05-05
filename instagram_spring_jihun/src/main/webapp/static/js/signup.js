@@ -53,7 +53,7 @@ for (let i = 0; i < input_datas.length; i++) {
             if(i == 2){
 				$.ajax({
 					type: "get",
-					url: "/app/auth/username/check",
+					url: "/jihun/auth/username/check",
 					data: {
 						"username": input.value
 					},
